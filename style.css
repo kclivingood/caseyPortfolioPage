@@ -1,0 +1,234 @@
+/* _____ GLOBAL ELEMENT ATTRIBUTES12121 _____ */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 16px;
+  }
+
+h1 {
+  font-size: 2rem;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+  color: rgb(53,99,102);
+  font-weight: 200;
+  font-size: 1.5em;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* _____ NAVIGATION HEADER _____ */
+
+nav {
+  position: fixed;
+  width: 100%;
+  background-color: rgb(72,74,85);
+  text-align: right;
+  height: 5rem;
+}
+
+
+nav ul {
+  list-style-type: none;
+  font-size: 1.3rem;
+}
+
+nav li {
+  display: inline-block;
+  padding: 1em;
+  margin-top: 0.3em;
+  color: white;
+  border-radius: 0.12em;
+}
+
+nav li a {
+  color: white;
+}
+
+nav li a:hover {
+  color: rgb(238,245,247);
+}
+
+/* ______ HERO SECTION ______ */
+
+#hero-section {
+  padding-top: 10rem;
+  text-align: center;
+  width: 100%;
+  height: 22rem;
+  background-color: rgb(72,74,85);
+}
+
+#hero-section p, h1 {
+  width: 100%;
+  font-weight: 200;
+}
+
+#hero-section p {
+  text-transform: lowercase;
+  color: rgb(224,136,56);
+  font-size: 1.4rem;
+}
+
+/* _____ PROJECTS SECTION ______ */
+
+.project-container {
+  padding: 5em 0em;
+}
+
+.project-header {
+  margin-bottom: 2em;
+}
+
+.project-button {
+  width: 20em;
+  margin: 1em;
+  padding: 1em;
+  padding-bottom: 2.2em;
+  box-shadow: 0.15rem 0.15rem rgb(53,99,102);
+  transition: 0.4s;
+}
+
+.project-button:hover {
+  cursor: pointer;
+  background-color: rgb(238,245,247);
+}
+
+/* _____ SHOW ALL BUTTON ______ */
+
+button {
+  width: 10rem;
+  height: 2.5rem;
+  margin: 1.5rem auto;
+  border: 0.15rem rgb(53,99,102) solid;
+  border-radius: 0.2rem;
+  color: rgb(53,99,102);
+  font-size: 1rem;
+  font-weight: 700;
+  background-color: #FFF;
+}
+
+/* _____ Contact Section _____ */
+
+.contact-wrapper {
+  width: 100%;
+  background-color: rgb(199,199,226);
+}
+
+.contact-container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 2em;
+}
+
+#contact-header {
+  font-size: 1.7rem;
+  color: white;
+  padding-top: 2em;
+}
+
+.contact-option {
+  display: flex;
+  background-color: #FFF;
+  width: 2em;
+  height: 2em;
+  margin: 0.5em;
+  border-radius: 0.3em;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  font-size: 1em;
+  color: rgb(53,99,102);
+  font-weight: 700;
+  border: 0.1em rgb(164,164,208) solid;
+}
+
+#email {
+  width: 4em;
+}
+
+.contact-option:hover {
+  background-color: rgb(241,241,248);
+}
+.contact-option a {
+  text-decoration: none;
+}
+
+/* FOOTER */
+
+.footer-section {
+  background-color: rgb(72,74,85);
+  color: #FFF;
+  padding: 2em;
+}
+
+#ham-wrapper {
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  top: 0;
+  width: 3em;
+  height: 3em;
+  color: white;
+  padding: 1em;
+  display: none;
+}
+
+#ham-container {
+  background-color: rgb(72,74,85);
+  width: 3em;
+  height: 3em;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.ham-fixed {
+  position: fixed;
+}
+
+.ham-bar {
+  position: relative;
+  z-index: 0;
+  background-color: white;
+  margin: 0.11em;
+  width: 3em;
+  height: 0.6em;
+  border-radius: 5em;
+  transition: 0.2s;
+}
+
+.bar1 {
+  
+  transform: rotate(45deg) translate(0.6em, 0.5em);
+  background-color: white;
+}
+
+.bar2 {
+  background-color: transparent;
+}
+
+.bar3 {
+  transform: rotate(-45deg) translate(0.6em, -0.6em);
+  background-color: white;
+}
+
+.show {
+  display: block;
+  position: fixed;
+}

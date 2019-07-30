@@ -1,0 +1,130 @@
+/* for iPhone 6/7/8 & 6/7/8 Plus - portrait & landscape */
+@media (max-height: 737px) {
+    h1 {
+        font-size: 2.1em;
+    }
+
+    /* Hamburger menu */
+    .ham-fixed {
+        position: fixed;
+    }
+
+    #ham-wrapper {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    /* Navigation menu */
+    .nav-container {
+        display: none;
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        padding-top: 4em;
+    }
+
+    .show {
+        display: block;
+        position: fixed;
+    }
+
+    nav li {
+        display: block;
+        padding: 0.8em 0;
+        text-align: center;
+        border: 0.12em solid white;
+        width: 60%;
+        margin: 1em auto;
+        box-shadow: 0.1em 0.1em 0.2em white;
+    }
+
+    nav li a {
+        width: 100%;
+    }
+
+    /* Footer */
+    .footer-section {
+        font-size: 0.8em;
+    }
+}
+
+/* for Galaxy & iPhone X/XS */
+@media (max-width: 415px) and (min-height: 738px) {
+    h1 {
+        font-size: 1.9em;
+    }
+
+    /* Hamburger menu */
+    .ham-fixed {
+        position: fixed;
+    }
+
+    #ham-wrapper {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    /* Navigation Menu */
+    .nav-container {
+        display: none;
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        padding-top: 4em;
+    }
+
+    nav li {
+        display: block;
+        padding: 0.8em 0;
+        text-align: center;
+        border: 0.12em solid white;
+        width: 60%;
+        margin: 1em auto;
+        box-shadow: 0.1em 0.1em 0.2em white;
+    }
+
+    nav li a {
+        width: 100%;
+    }
+
+    
+
+    .show {
+        display: block;
+    }
+
+    .fixed {
+        position: fixed;
+    }
+
+    /* Footer */
+    .footer-section {
+        font-size: 0.8em;
+    }
+}
+
+/* for iPad & Kindle Fire HDX -- PORTRAIT */
+@media (max-width: 801px) and (min-height: 1000px) {
+    .footer-section {
+        min-height: 6em;
+    }
+
+    .footer-text {
+        margin-top: 2.5em;
+    }
+}
+
+/* for iPad & Kindle Fire HDX -- LANDSCAPE */
+@media (min-width: 1001px) and (max-width: 1300px) {
+    /* None needed! */
+}

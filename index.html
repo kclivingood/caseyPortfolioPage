@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Casey Livingood - A Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+  <body>
+  
+  <!-- Hamburger menu (mobile only) -->
+  <div id="ham-wrapper">
+    <button id="ham-container" type="button" aria-label="Menu" aria-controls="navigation">
+      <div class="ham-bar">&nbsp;</div>
+      <div class="ham-bar">&nbsp;</div>
+      <div class="ham-bar">&nbsp;</div>
+    </button>
+  </div>
+
+  <!-- Navigation menu -->
+  <nav class="nav-container">
+    <ul>
+      <a href="#resume"><li class="nav-button">Resume</li></a>
+      <a href="#projects"><li class="nav-button">Projects</li></a>
+      <a href="#contact"><li class="nav-button">Contact</li></a>
+    </ul>
+  </nav>
+
+  <script src="script.js"></script>
+  
+  <!-- Hero -->
+  <div id="hero-section" class="hello">
+    <h1>Hello. I am Casey Livingood.</h1>
+    <p>A Web Developer</p>
+  </div>
+
+  <!-- Projects -->
+  <div class="project-wrapper">
+    <div class="project-container">
+      <a id="projects" name="projects"></a><h2 class="project-header">These are some projects</h2>
+      <a href="https://codepen.io/kclivingood/pen/eLvWNv">
+      <button class="project-button">Tribute Page</button></a>
+      <a href="https://codepen.io/kclivingood/pen/MqpmWj">
+      <button class="project-button">Survey Form</button></a>
+      <a href="https://codepen.io/kclivingood/pen/mGWmYJ">
+      <button class="project-button">Product Landing Page</button></a>
+      <a href="https://codepen.io/kclivingood/pen/ePGKdg">
+      <button class="project-button">Technical Documentation Page</button></a>
+    </div>
+  </div>
+    
+    <!-- Link to codepen if needed
+
+   <a href="https://codepen.io/kclivingood/#" target="_blank">
+      <button type="button" id="show-all">Show all</button>
+    </a>
+
+     -->
+     
+    <!-- Contact section -->
+    <div class="contact-wrapper">
+      <p id="contact-header">Let's collaborate...</h1>
+      <div class="contact-container">
+          <a href="https://www.facebook.com/casey.livingood" target="_blank">
+            <div class="contact-option"><i class="fa fa-facebook"></i></div></a>
+          <a href="https://github.com/kclivingood/" target="_blank">
+            <div class="contact-option"><i class="fa fa-github"></i></div></a>
+          <a href="https://www.linkedin.com/in/casey-livingood-2b408977/" target="_blank">
+            <div class="contact-option"><i class="fa fa-linkedin"></i></div></a>
+          <a href="mailto:kclivingood@hotmail.com">
+            <div class="contact-option" id="email">email</div></a>
+      </div>
+    </div>
+    
+  
+
+  <footer class="footer-section">
+  <a id="contact" name="contact"></a>
+    <p class="footer-text">This website was created by Casey Livingood &copy; 2019</p>
+  </footer>
+  </body>
+</html>
