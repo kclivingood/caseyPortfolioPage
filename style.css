@@ -1,14 +1,11 @@
 /* _____ GLOBAL ELEMENT ATTRIBUTES12121 _____ */
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
 html, body {
   font-family: 'Open Sans', sans-serif;
   text-align: center;
   font-size: 16px;
+  margin: 0 auto;
+  padding: 0;
   }
 
 h1 {
@@ -62,11 +59,13 @@ nav li a:hover {
 /* ______ HERO SECTION ______ */
 
 #hero-section {
-  padding-top: 10rem;
+  padding: 10em 0 5em 0;
   text-align: center;
+  min-width: 375px;
   width: 100%;
   height: 22rem;
   background-color: rgb(72,74,85);
+  margin: 0;
 }
 
 #hero-section p, h1 {
@@ -80,10 +79,27 @@ nav li a:hover {
   font-size: 1.4rem;
 }
 
+img {
+  max-width: 208px;
+  max-height: 208px;
+  border-radius: 100%;
+}
+
+.hero-img-container {
+  margin: 2em auto;
+}
+
 /* _____ PROJECTS SECTION ______ */
 
-.project-container {
+.project-wrapper {
   padding: 5em 0em;
+  min-width: 375px;
+}
+
+.project-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 
 .project-header {
@@ -121,6 +137,7 @@ button {
 /* _____ Contact Section _____ */
 
 .contact-wrapper {
+  min-width: 375px;
   width: 100%;
   background-color: rgb(199,199,226);
 }
@@ -171,7 +188,8 @@ button {
 .footer-section {
   background-color: rgb(72,74,85);
   color: #FFF;
-  padding: 2em;
+  padding: 2em 0;
+  min-width: 375px;
 }
 
 #ham-wrapper {

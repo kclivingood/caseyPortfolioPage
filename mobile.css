@@ -1,8 +1,15 @@
-/* for iPhone 6/7/8 & 6/7/8 Plus - portrait & landscape */
+/* for iPhone 6/7/8 & 6/7/8 Plus - landscape  */
 @media (max-height: 737px) {
+
     h1 {
         font-size: 2.1em;
     }
+
+    img {
+        max-width: 10em;
+        max-height: 10em;
+    }
+
 
     /* Hamburger menu */
     .ham-fixed {
@@ -28,11 +35,6 @@
         padding-top: 4em;
     }
 
-    .show {
-        display: block;
-        position: fixed;
-    }
-
     nav li {
         display: block;
         padding: 0.8em 0;
@@ -51,12 +53,34 @@
     .footer-section {
         font-size: 0.8em;
     }
+
+    .show {
+        display: block;
+        position: fixed;
+    }
+
+    .fixed {
+        position: fixed;
+    }
+}
+
+/* for iPhone 6/7/8 & 6/7/8 Plus - portrait & landscape */
+@media (max-height: 415px) and (min-width: 600px) {
+    img {
+        max-width: 10em;
+        max-height: 10em;
+    }
 }
 
 /* for Galaxy & iPhone X/XS */
 @media (max-width: 415px) and (min-height: 738px) {
     h1 {
         font-size: 1.9em;
+    }
+
+    img {
+        max-width: 10em;
+        max-height: 10em;
     }
 
     /* Hamburger menu */
@@ -97,8 +121,6 @@
         width: 100%;
     }
 
-    
-
     .show {
         display: block;
     }
@@ -115,6 +137,12 @@
 
 /* for iPad & Kindle Fire HDX -- PORTRAIT */
 @media (max-width: 801px) and (min-height: 1000px) {
+
+    img {
+        max-width: 10em;
+        max-height: 10em;
+    }
+
     .footer-section {
         min-height: 6em;
     }
@@ -126,5 +154,8 @@
 
 /* for iPad & Kindle Fire HDX -- LANDSCAPE */
 @media (min-width: 1001px) and (max-width: 1300px) {
-    /* None needed! */
+    img {
+        max-width: 10em;
+        max-height: 10em;
+    }
 }
